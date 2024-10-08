@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 catch(NumberFormatException e){
                     Toast.makeText(MainActivity.this, "Enter in number format", Toast.LENGTH_SHORT).show();
+
+
                 }
 
                 StringBuilder table = new StringBuilder();
